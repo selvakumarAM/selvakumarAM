@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3221787295C8DCA003126B3 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3221786295C8DCA003126B3 /* HomePageViewController.swift */; };
+		B3A0DBDD296D840E006FB685 /* my3CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0DBDC296D840E006FB685 /* my3CollectionViewCell.swift */; };
+		B3A0DBDF296D849B006FB685 /* my3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0DBDE296D849B006FB685 /* my3TableViewCell.swift */; };
+		B3AB0FB92955EBE700D41C70 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB0FB82955EBE700D41C70 /* SignupViewController.swift */; };
+		B3AB0FBD2955F80F00D41C70 /* OTPViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB0FBC2955F80F00D41C70 /* OTPViewControler.swift */; };
+		B3F27A872950A9EE00497C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F27A862950A9EE00497C35 /* AppDelegate.swift */; };
+		B3F27A892950A9EE00497C35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F27A882950A9EE00497C35 /* SceneDelegate.swift */; };
+		B3F27A8B2950A9EE00497C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F27A8A2950A9EE00497C35 /* ViewController.swift */; };
+		B3F27A8E2950A9EE00497C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F27A8C2950A9EE00497C35 /* Main.storyboard */; };
+		B3F27A902950A9F100497C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F27A8F2950A9F100497C35 /* Assets.xcassets */; };
+		B3F27A932950A9F100497C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F27A912950A9F100497C35 /* LaunchScreen.storyboard */; };
+		B3F27A9E2950A9F100497C35 /* Beverage_BombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F27A9D2950A9F100497C35 /* Beverage_BombTests.swift */; };
+		B3F27AA82950A9F100497C35 /* Beverage_BombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F27AA72950A9F100497C35 /* Beverage_BombUITests.swift */; };
+		B3F27AAA2950A9F100497C35 /* Beverage_BombUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F27AA92950A9F100497C35 /* Beverage_BombUITestsLaunchTests.swift */; };
+		B3F5298829534AAD003A70F5 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5298729534AAD003A70F5 /* loginViewController.swift */; };
+		B3F52E54295DC1360042D2AE /* my1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F52E53295DC1360042D2AE /* my1TableViewCell.swift */; };
+		B3F52E56295DC16B0042D2AE /* my2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F52E55295DC16B0042D2AE /* my2TableViewCell.swift */; };
+		B3F52E58295DCBE30042D2AE /* my1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F52E57295DCBE30042D2AE /* my1CollectionViewCell.swift */; };
+		B3F52E5A295DE5590042D2AE /* my2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F52E59295DE5590042D2AE /* my2CollectionViewCell.swift */; };
+		B3F68D3B2966E5C70021845D /* productDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F68D3A2966E5C70021845D /* productDetailsViewController.swift */; };
+		B3F68D3D2966E60D0021845D /* seeAllProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F68D3C2966E60D0021845D /* seeAllProductViewController.swift */; };
+		B3F68D412966EE0D0021845D /* seeAllTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F68D402966EE0D0021845D /* seeAllTableViewCell.swift */; };
+		B3F8ECA42951F5E3006CF31B /* myCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ECA32951F5E3006CF31B /* myCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3F27A9A2950A9F100497C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F27A7B2950A9EE00497C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3F27A822950A9EE00497C35;
+			remoteInfo = "Beverage Bomb";
+		};
+		B3F27AA42950A9F100497C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F27A7B2950A9EE00497C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3F27A822950A9EE00497C35;
+			remoteInfo = "Beverage Bomb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3221786295C8DCA003126B3 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B3A0DBDC296D840E006FB685 /* my3CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my3CollectionViewCell.swift; sourceTree = "<group>"; };
+		B3A0DBDE296D849B006FB685 /* my3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my3TableViewCell.swift; sourceTree = "<group>"; };
+		B3AB0FB82955EBE700D41C70 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B3AB0FBC2955F80F00D41C70 /* OTPViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewControler.swift; sourceTree = "<group>"; };
+		B3F27A832950A9EE00497C35 /* Beverage Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beverage Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F27A862950A9EE00497C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3F27A882950A9EE00497C35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3F27A8A2950A9EE00497C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3F27A8D2950A9EE00497C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3F27A8F2950A9F100497C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3F27A922950A9F100497C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3F27A942950A9F100497C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F27A992950A9F100497C35 /* Beverage BombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beverage BombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F27A9D2950A9F100497C35 /* Beverage_BombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage_BombTests.swift; sourceTree = "<group>"; };
+		B3F27AA32950A9F100497C35 /* Beverage BombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beverage BombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F27AA72950A9F100497C35 /* Beverage_BombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage_BombUITests.swift; sourceTree = "<group>"; };
+		B3F27AA92950A9F100497C35 /* Beverage_BombUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage_BombUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3F5298729534AAD003A70F5 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		B3F52E53295DC1360042D2AE /* my1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my1TableViewCell.swift; sourceTree = "<group>"; };
+		B3F52E55295DC16B0042D2AE /* my2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my2TableViewCell.swift; sourceTree = "<group>"; };
+		B3F52E57295DCBE30042D2AE /* my1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my1CollectionViewCell.swift; sourceTree = "<group>"; };
+		B3F52E59295DE5590042D2AE /* my2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my2CollectionViewCell.swift; sourceTree = "<group>"; };
+		B3F68D3A2966E5C70021845D /* productDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productDetailsViewController.swift; sourceTree = "<group>"; };
+		B3F68D3C2966E60D0021845D /* seeAllProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeAllProductViewController.swift; sourceTree = "<group>"; };
+		B3F68D402966EE0D0021845D /* seeAllTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeAllTableViewCell.swift; sourceTree = "<group>"; };
+		B3F8ECA32951F5E3006CF31B /* myCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3F27A802950A9EE00497C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F27A962950A9F100497C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F27AA02950A9F100497C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3F27A7A2950A9EE00497C35 = {
+			isa = PBXGroup;
+			children = (
+				B3F27A852950A9EE00497C35 /* Beverage Bomb */,
+				B3F27A9C2950A9F100497C35 /* Beverage BombTests */,
+				B3F27AA62950A9F100497C35 /* Beverage BombUITests */,
+				B3F27A842950A9EE00497C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F27A842950A9EE00497C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3F27A832950A9EE00497C35 /* Beverage Bomb.app */,
+				B3F27A992950A9F100497C35 /* Beverage BombTests.xctest */,
+				B3F27AA32950A9F100497C35 /* Beverage BombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F27A852950A9EE00497C35 /* Beverage Bomb */ = {
+			isa = PBXGroup;
+			children = (
+				B3F27A862950A9EE00497C35 /* AppDelegate.swift */,
+				B3F27A882950A9EE00497C35 /* SceneDelegate.swift */,
+				B3F27A8A2950A9EE00497C35 /* ViewController.swift */,
+				B3F8ECA32951F5E3006CF31B /* myCollectionViewCell.swift */,
+				B3F5298729534AAD003A70F5 /* loginViewController.swift */,
+				B3AB0FBC2955F80F00D41C70 /* OTPViewControler.swift */,
+				B3AB0FB82955EBE700D41C70 /* SignupViewController.swift */,
+				B3221786295C8DCA003126B3 /* HomePageViewController.swift */,
+				B3F52E53295DC1360042D2AE /* my1TableViewCell.swift */,
+				B3F52E55295DC16B0042D2AE /* my2TableViewCell.swift */,
+				B3A0DBDE296D849B006FB685 /* my3TableViewCell.swift */,
+				B3F52E57295DCBE30042D2AE /* my1CollectionViewCell.swift */,
+				B3F52E59295DE5590042D2AE /* my2CollectionViewCell.swift */,
+				B3A0DBDC296D840E006FB685 /* my3CollectionViewCell.swift */,
+				B3F68D3C2966E60D0021845D /* seeAllProductViewController.swift */,
+				B3F68D402966EE0D0021845D /* seeAllTableViewCell.swift */,
+				B3F68D3A2966E5C70021845D /* productDetailsViewController.swift */,
+				B3F27A8C2950A9EE00497C35 /* Main.storyboard */,
+				B3F27A8F2950A9F100497C35 /* Assets.xcassets */,
+				B3F27A912950A9F100497C35 /* LaunchScreen.storyboard */,
+				B3F27A942950A9F100497C35 /* Info.plist */,
+			);
+			path = "Beverage Bomb";
+			sourceTree = "<group>";
+		};
+		B3F27A9C2950A9F100497C35 /* Beverage BombTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3F27A9D2950A9F100497C35 /* Beverage_BombTests.swift */,
+			);
+			path = "Beverage BombTests";
+			sourceTree = "<group>";
+		};
+		B3F27AA62950A9F100497C35 /* Beverage BombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3F27AA72950A9F100497C35 /* Beverage_BombUITests.swift */,
+				B3F27AA92950A9F100497C35 /* Beverage_BombUITestsLaunchTests.swift */,
+			);
+			path = "Beverage BombUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3F27A822950A9EE00497C35 /* Beverage Bomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F27AAD2950A9F100497C35 /* Build configuration list for PBXNativeTarget "Beverage Bomb" */;
+			buildPhases = (
+				B3F27A7F2950A9EE00497C35 /* Sources */,
+				B3F27A802950A9EE00497C35 /* Frameworks */,
+				B3F27A812950A9EE00497C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beverage Bomb";
+			productName = "Beverage Bomb";
+			productReference = B3F27A832950A9EE00497C35 /* Beverage Bomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3F27A982950A9F100497C35 /* Beverage BombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F27AB02950A9F100497C35 /* Build configuration list for PBXNativeTarget "Beverage BombTests" */;
+			buildPhases = (
+				B3F27A952950A9F100497C35 /* Sources */,
+				B3F27A962950A9F100497C35 /* Frameworks */,
+				B3F27A972950A9F100497C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3F27A9B2950A9F100497C35 /* PBXTargetDependency */,
+			);
+			name = "Beverage BombTests";
+			productName = "Beverage BombTests";
+			productReference = B3F27A992950A9F100497C35 /* Beverage BombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3F27AA22950A9F100497C35 /* Beverage BombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F27AB32950A9F100497C35 /* Build configuration list for PBXNativeTarget "Beverage BombUITests" */;
+			buildPhases = (
+				B3F27A9F2950A9F100497C35 /* Sources */,
+				B3F27AA02950A9F100497C35 /* Frameworks */,
+				B3F27AA12950A9F100497C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3F27AA52950A9F100497C35 /* PBXTargetDependency */,
+			);
+			name = "Beverage BombUITests";
+			productName = "Beverage BombUITests";
+			productReference = B3F27AA32950A9F100497C35 /* Beverage BombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3F27A7B2950A9EE00497C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B3F27A822950A9EE00497C35 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B3F27A982950A9F100497C35 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B3F27A822950A9EE00497C35;
+					};
+					B3F27AA22950A9F100497C35 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B3F27A822950A9EE00497C35;
+					};
+				};
+			};
+			buildConfigurationList = B3F27A7E2950A9EE00497C35 /* Build configuration list for PBXProject "Beverage Bomb" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3F27A7A2950A9EE00497C35;
+			productRefGroup = B3F27A842950A9EE00497C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F27A822950A9EE00497C35 /* Beverage Bomb */,
+				B3F27A982950A9F100497C35 /* Beverage BombTests */,
+				B3F27AA22950A9F100497C35 /* Beverage BombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3F27A812950A9EE00497C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F27A932950A9F100497C35 /* LaunchScreen.storyboard in Resources */,
+				B3F27A902950A9F100497C35 /* Assets.xcassets in Resources */,
+				B3F27A8E2950A9EE00497C35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F27A972950A9F100497C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F27AA12950A9F100497C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3F27A7F2950A9EE00497C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB0FB92955EBE700D41C70 /* SignupViewController.swift in Sources */,
+				B3F52E5A295DE5590042D2AE /* my2CollectionViewCell.swift in Sources */,
+				B3AB0FBD2955F80F00D41C70 /* OTPViewControler.swift in Sources */,
+				B3F27A8B2950A9EE00497C35 /* ViewController.swift in Sources */,
+				B3F8ECA42951F5E3006CF31B /* myCollectionViewCell.swift in Sources */,
+				B3F68D3B2966E5C70021845D /* productDetailsViewController.swift in Sources */,
+				B3A0DBDD296D840E006FB685 /* my3CollectionViewCell.swift in Sources */,
+				B3221787295C8DCA003126B3 /* HomePageViewController.swift in Sources */,
+				B3A0DBDF296D849B006FB685 /* my3TableViewCell.swift in Sources */,
+				B3F27A872950A9EE00497C35 /* AppDelegate.swift in Sources */,
+				B3F52E58295DCBE30042D2AE /* my1CollectionViewCell.swift in Sources */,
+				B3F52E56295DC16B0042D2AE /* my2TableViewCell.swift in Sources */,
+				B3F68D412966EE0D0021845D /* seeAllTableViewCell.swift in Sources */,
+				B3F68D3D2966E60D0021845D /* seeAllProductViewController.swift in Sources */,
+				B3F52E54295DC1360042D2AE /* my1TableViewCell.swift in Sources */,
+				B3F27A892950A9EE00497C35 /* SceneDelegate.swift in Sources */,
+				B3F5298829534AAD003A70F5 /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F27A952950A9F100497C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F27A9E2950A9F100497C35 /* Beverage_BombTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F27A9F2950A9F100497C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F27AA82950A9F100497C35 /* Beverage_BombUITests.swift in Sources */,
+				B3F27AAA2950A9F100497C35 /* Beverage_BombUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3F27A9B2950A9F100497C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3F27A822950A9EE00497C35 /* Beverage Bomb */;
+			targetProxy = B3F27A9A2950A9F100497C35 /* PBXContainerItemProxy */;
+		};
+		B3F27AA52950A9F100497C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3F27A822950A9EE00497C35 /* Beverage Bomb */;
+			targetProxy = B3F27AA42950A9F100497C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3F27A8C2950A9EE00497C35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F27A8D2950A9EE00497C35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3F27A912950A9F100497C35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F27A922950A9F100497C35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3F27AAB2950A9F100497C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3F27AAC2950A9F100497C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3F27AAE2950A9F100497C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Beverage Bomb/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nschool.Beverage-Bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3F27AAF2950A9F100497C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Beverage Bomb/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nschool.Beverage-Bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3F27AB12950A9F100497C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nschool.Beverage-BombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beverage Bomb.app/Beverage Bomb";
+			};
+			name = Debug;
+		};
+		B3F27AB22950A9F100497C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nschool.Beverage-BombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beverage Bomb.app/Beverage Bomb";
+			};
+			name = Release;
+		};
+		B3F27AB42950A9F100497C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nschool.Beverage-BombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Beverage Bomb";
+			};
+			name = Debug;
+		};
+		B3F27AB52950A9F100497C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nschool.Beverage-BombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Beverage Bomb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3F27A7E2950A9EE00497C35 /* Build configuration list for PBXProject "Beverage Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F27AAB2950A9F100497C35 /* Debug */,
+				B3F27AAC2950A9F100497C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F27AAD2950A9F100497C35 /* Build configuration list for PBXNativeTarget "Beverage Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F27AAE2950A9F100497C35 /* Debug */,
+				B3F27AAF2950A9F100497C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F27AB02950A9F100497C35 /* Build configuration list for PBXNativeTarget "Beverage BombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F27AB12950A9F100497C35 /* Debug */,
+				B3F27AB22950A9F100497C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F27AB32950A9F100497C35 /* Build configuration list for PBXNativeTarget "Beverage BombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F27AB42950A9F100497C35 /* Debug */,
+				B3F27AB52950A9F100497C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3F27A7B2950A9EE00497C35 /* Project object */;
+}
