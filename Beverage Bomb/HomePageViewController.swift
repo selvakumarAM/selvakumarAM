@@ -70,6 +70,8 @@ class HomePageViewController: UIViewController,UITableViewDelegate,UITableViewDa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 0{
             return 300
+            
+            
         } else if indexPath.section == 1{
             return 300
         }
